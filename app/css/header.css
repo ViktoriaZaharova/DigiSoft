@@ -1,0 +1,78 @@
+/*==========  section header ==========*/
+header {
+  z-index: 1;
+  padding: 32px 0 40px; }
+
+.logo {
+  max-width: 88px;
+  width: 100%;
+  margin: 0 24px 0 0; }
+  .logo img {
+    width: 100%; }
+
+.btn-catalog {
+  padding: 8px 25.5px; }
+  .btn-catalog .btn-icon {
+    fill: #fff;
+    width: 14px;
+    height: 12px; }
+  .btn-catalog:after {
+    display: none; }
+  .btn-catalog.show {
+    background: #FF2424;
+    color: #fff; }
+  .btn-catalog:focus {
+    background: #484848;
+    color: #fff; }
+
+.appointment {
+  display: block;
+  margin: 5px 0 0;
+  color: #6F7D8D;
+  font-size: 10px; }
+
+.all-products .dropdown-item__icon {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  margin: 0 7px 0 0;
+  background: #F1F4F9;
+  border-radius: 8px;
+  padding: 10px; }
+  .all-products .dropdown-item__icon .svg-icon {
+    fill: #6F7D8D; }
+
+.contacts-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 0 auto;
+  padding: 6px 2px; }
+  .contacts-box .phone {
+    color: #484848;
+    letter-spacing: -0.5px;
+    font-family: "SFProDisplay", sans-serif; }
+    .contacts-box .phone:hover {
+      color: #0F00BD; }
+
+.telegram-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 28px;
+  height: 28px;
+  fill: #6F7D8D;
+  margin-left: 14px; }
+
+/*==========  section header end  ==========*/

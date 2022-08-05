@@ -1,0 +1,65 @@
+/*==========  section footer ==========*/
+footer {
+  padding: 0 0 34px; }
+  footer .phone {
+    margin: 54px 0 27px;
+    color: #121313;
+    font-size: 20px;
+    font-weight: 500; }
+    footer .phone:hover {
+      color: #0F00BD; }
+  footer .logo {
+    max-width: 121px;
+    margin: 0; }
+
+.mail {
+  font-size: 14px;
+  font-weight: 500;
+  color: #8E8E8E; }
+  .mail:hover {
+    color: #0F00BD; }
+
+.schedule {
+  font-size: 14px;
+  color: #8E8E8E;
+  font-weight: 500;
+  line-height: 200%; }
+
+.footer-wrapper {
+  width: 100%;
+  background: #F5F7FB;
+  border-radius: 16px;
+  margin: 0 auto 32px;
+  padding: 60px 40px 42px; }
+
+.footer-box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .footer-box h3 {
+    margin: 0 0 24px;
+    color: #121313;
+    font-weight: 500; }
+  .footer-box .btn {
+    margin: auto 0 20px; }
+
+.footer-menu {
+  line-height: 276%; }
+  .footer-menu li a {
+    color: #6F7D8D; }
+    .footer-menu li a:hover {
+      color: #0F00BD; }
+
+.footer-bottom {
+  font-size: 14px;
+  line-height: 150%; }
+  .footer-bottom a {
+    margin: 0 auto; }
+
+/*==========  section footer end  ==========*/
