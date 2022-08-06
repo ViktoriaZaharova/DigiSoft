@@ -11,36 +11,43 @@
   position: relative
   padding: 32px
   z-index: 1
+
   h3
     color: #484848
     font-size: 32px
     font-weight: 500
     margin: 0 0 12px
+
   h4
     color: #484848
     font-size: 22px
     font-weight: 500
+
   .description
     color: #6F7D8D
     font-size: 18px
     line-height: 150%
     max-width: 210px
     margin: 12px 0 0
+
   .btn
     margin: auto 0 0
     padding: 8px 26.5px
+
   &__image
     position: absolute
     bottom: 23px
     right: 7px
     max-width: 311px
     @include d-flex
+
   &__icon
     bottom: 20px
     right: 32px
     position: absolute
     max-width: 40px
     @include d-flex
+
   &__bg
     position: absolute
     z-index: -1
@@ -54,16 +61,20 @@
 .home-card-min
   height: 180px
   margin: 0 0 16px
+
   &:last-child
     margin: 0
 
 .home-card-banner
   color: #fff
   background: #000
+
   .link-white
     margin: 48px 0 0
+
   h4
     color: #fff
+
   .description
     color: #C1C6CD
 
@@ -79,6 +90,7 @@
   .slick-slide
     padding: 8px
     margin: 30px 0
+
   .slick-list
     margin: 0 -8px
 
@@ -89,12 +101,13 @@
   display: flex
   flex-direction: column
   font-family: $font
+
   &:before
     content: ''
     position: absolute
     left: 50%
     top: 50%
-    transform: translate(-50%,-50%)
+    transform: translate(-50%, -50%)
     width: calc(100% + 16px)
     height: calc(100% + 16px)
     z-index: -1
@@ -104,11 +117,14 @@
       radius: 16px
     opacity: 0
     transition: .3s ease
+
   &:hover
     &:before
       opacity: 1
+
     .btn
       color: $accent
+
   &__image
     background: #F1F4F9
     border-radius: 16px
@@ -116,15 +132,18 @@
     display: flex
     align-items: center
     width: 100%
+
     img
       margin: 19px auto -28px
       max-height: 100%
+
   &__body
     height: calc(100% - 114px)
     padding: 2px 0 0
     display: flex
     flex-direction: column
     justify-content: flex-end
+
   &__title
     margin: 4px 0 9px
     color: #535353
@@ -133,8 +152,10 @@
     min-height: 34px
     max-height: 34px
     overflow: hidden
+
     &:hover
       color: $accent
+
   .btn
     width: 100%
 
@@ -161,12 +182,13 @@
   font-family: $font
   position: relative
   width: fit-content
+
   &:before
     content: ''
     position: absolute
     top: 50%
     left: 50%
-    transform: translate(-50%,-50%)
+    transform: translate(-50%, -50%)
     width: 54px
     height: 8px
     background: url('../img/price-line.svg') no-repeat center
@@ -198,13 +220,16 @@
 .collections-box
   width: 100%
   text-align: center
+
   &__title
     margin: 24px auto 0
     color: #484848
     font-size: 18px
     font-weight: 500
+
     &:hover
       color: $accent
+
   &__image
     border-radius: 16px
     @include d-flex
@@ -212,6 +237,7 @@
     height: 252px
     background: rgba(15, 0, 189, 0.05)
     padding: 18px 30px
+
     img
       max-width: 162px
       max-height: 100%
@@ -243,32 +269,41 @@
   background: #EEF2FD
   border-radius: 16px
   padding: 32px 60px 32px 40px
+
   &__content
     max-width: 235px
     margin: 0 auto 0 0
+
   &__image
     margin: 0 0 -40px
     max-width: 187px
     @include d-flex
     position: relative
+
     > img
       transform: rotate(15deg)
-  p
-    margin: 0 0 13px
-    color: #6F7D8D
+
+
+
   &__title
     color: #121313
     margin: 0 0 11px
     font-size: 22px
     font-weight: 500
+
     &:hover
       color: $accent
+
+.stock-box
+  p
+    margin: 0 0 10px
+    color: #6F7D8D
 
 .sale-label
   position: absolute
   right: -20px
   top: 55%
-  transform: translate(0,-50%)
+  transform: translate(0, -50%)
   max-width: 90px
   @include d-flex
 
@@ -277,6 +312,7 @@
   align-items: flex-start
   margin: 13px 0 32px
   font-family: $font
+
   span
     display: block
     text-align: center
@@ -287,6 +323,7 @@
   padding: 0 20px 0 0
   position: relative
   color: #121313
+
   &:before
     content: ':'
     position: absolute
@@ -295,12 +332,15 @@
     line-height: 150%
     font-size: 32px
     font-weight: 600
+
   &__val
     font-size: 32px
     font-weight: 600
     line-height: 150%
+
   &:last-child
     padding: 0
+
     &:before
       display: none
 
@@ -314,16 +354,19 @@
 .banner
   color: #fff
   margin: 60px 0 64px
+
   h2
     font-family: $font
     color: #fff
     font-weight: 600
+
   .box-text
     line-height: 150%
     color: #A7A7A7
     font-size: 20px
     max-width: 350px
     margin: 21px 0 0
+
     a
       display: inline
       font-size: 20px
@@ -347,7 +390,8 @@
   display: flex
   align-items: center
   justify-content: center
-  >img
+
+  > img
     position: absolute
     top: -110px
     z-index: -1
@@ -363,6 +407,7 @@
   height: 100%
   position: relative
   font-family: $font
+
   &__image
     height: 120px
     width: 100%
@@ -370,12 +415,15 @@
     border-radius: 16px
     display: flex
     align-items: flex-start
+
     img
       margin: 14px auto -34px
       max-height: 140px
+
   &__body
     width: 100%
     padding: 40px 2px 0
+
   &__title
     min-height: 36px
     max-height: 36px
@@ -384,42 +432,416 @@
     font-size: 14px
     font-weight: 500
     max-width: 178px
+
     &:hover
       color: $accent
+
   &__footer
     margin: 19px 0 0
     display: flex
     align-items: center
     flex-wrap: wrap
+
   .btn
     margin: 0 0 0 auto
     font-family: $default-font
+
   .options
     margin-bottom: 0
 /*==========  section popular end  ==========*/
 
 
 
-/*==========  section  ==========*/
+/*==========  section reviews ==========*/
+.reviews
+  margin: 48px 0
+  h2
+    margin: 0 auto 48px
 
-/*==========  section end  ==========*/
+.reviews-slider
+  .slick-slide
+    padding: 0 8px
+    height: auto
+    >div
+      height: 100%
+      >.slide
+        height: 100%
+  .slick-list
+    margin: 0 -8px
+  .slick-track
+    display: flex
+    align-items: stretch
+  .slick-arrow
+    margin: 0
+    position: absolute
+    top: 50%
+    transform: translate(0,-50%)
+    box-shadow: 12.6px 30.8px 179.2px rgba(11, 31, 53, 0.1)
+    background: #fff
+    border: 1.4px solid #EEEFF1
+    width: 56px
+    height: 56px
+    padding: 19px
+    &:hover
+      background: $accent
+  .slick-prev
+    left: -28px
+  .slick-next
+    right: -28px
+
+.reviews-item
+  width: 100%
+  height: 100%
+  background: #F5F7FB
+  border-radius: 16px
+  padding: 32px 24px 40px
+  display: flex
+  flex-direction: column
+  &__footer
+    margin: auto 0 0
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+    color: #6F7D8D
+    font-size: 14px
+  h3
+    font-size: 18px
+    font-weight: bold
+    margin: 24px 0 18px
+  .box-text
+    max-width: 320px
+    margin: 0 0 48px
+    color: #6F7D8D
+    line-height: 150%
+
+.list-rating
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  li
+    @include d-flex
+    margin: 0 6px 0 0
+    width: 24px
+    height: 24px
+    fill: #FFBD00
+  .star-0
+    fill: #CBD0D5
+/*==========  section reviews end  ==========*/
 
 
 
-/*==========  section  ==========*/
+/*==========  section advantages ==========*/
+.advantages
+  margin: 56px 0 80px
+  h2
+    margin: 0 auto 56px
 
-/*==========  section end  ==========*/
+.advantages-box
+  width: 100%
+  height: 100%
+  position: relative
+  padding: 40px 24px
+  border-radius: 16px
+
+  h3
+    color: #072E47
+    font-size: 18px
+    font-weight: 500
+    margin: 0 0 18px
+
+  p
+    line-height: 150%
+    max-width: 213px
+    color: #6F7D8D
+    font-size: 14px
+  &__icon
+    position: absolute
+    z-index: 1
+    right: 40px
+    top: -24px
+    fill: #fff
+    padding: 17px
+    @include d-flex
+    width: 75px
+    height: 75px
+    border-radius: 50%
+
+  &.bg-light-green
+    background: rgba(111, 192, 159, 0.12)
+
+  &.bg-light-pink
+    background: rgba(255, 36, 36, 0.06)
+
+.advantages-box1
+  .advantages-box__icon
+    background: #0F00BD
+
+.advantages-box2
+  .advantages-box__icon
+    background: #6FC09F
+
+.advantages-box3
+  .advantages-box__icon
+    background: #FF2424
+/*==========  section advantages end  ==========*/
 
 
-/*==========  section  ==========*/
+/*==========  section original-soft ==========*/
+.original-soft
+  margin: 56px 0
+  h2
+    margin: 0 0 32px
+    color: #222325
+    font-size: 40px
+    font-weight: bold
+    max-width: 454px
+  .box-text
+    color: #6F7D8D
+    line-height: 150%
+  &__image
+    @include d-flex
+    max-width: 280px
 
-/*==========  section end  ==========*/
+
+/*==========  section original-soft end  ==========*/
 
 
 
-/*==========  section  ==========*/
+/*==========  section experts-section ==========*/
+.experts-section
+  margin: 130px 0 80px
 
-/*==========  section end  ==========*/
+.experts-section
+  .original-soft__image
+    transform: matrix(-1, 0, 0, 1, 0, 0)
+    margin: 0 0 0 auto
+/*==========  section experts-section end  ==========*/
+
+
+/*==========  section product-page ==========*/
+.product-page
+  margin: 0 0 80px
+
+.btn-download
+  margin-left: auto
+  height: 48px
+
+.product-row
+  margin-top: 40px
+
+.product-image-box
+  position: relative
+  background: #F5F7FB
+  border-radius: 16px
+  padding: 6px 16px 16px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  >img
+    max-height: 237px
+    margin: 0 auto
+  .timer
+    margin: 0
+  .stock-box
+    text-align: center
+    p
+      margin: 0 auto 1px
+  .sale-label
+    top: -25px
+    right: -6px
+    transform: none
+
+.product-page-box
+  width: 100%
+  h3
+    color: #484848
+    font-size: 20px
+    font-weight: 500
+  &__head
+    width: 100%
+    display: flex
+    align-items: center
+    margin: 0 0 20px
+
+.list-characteristic
+  width: 100%
+  color: #6F7D8D
+  font-size: 14px
+  padding: 0 20px 0 0
+  span
+    display: block
+    color: #0F00BD
+    text-align: right
+  li
+    width: 100%
+    margin: 0 0 22px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    &:last-child
+      margin: 0
+
+.btn-tooltip
+  @include d-flex
+  width: 15px
+  height: 15px
+  fill: #6F7D8D
+  cursor: pointer
+  margin-left: auto
+
+
+.link-code
+  color: #6F7D8D
+  font-size: 12px
+  font-weight: 500
+  margin: 15px auto 0
+  text-decoration: underline
+  &:hover
+    color: $accent
+
+.amount-wrapper
+  width: 100%
+  display: flex
+  align-items: center
+  margin: 40px 0 15px
+
+.amount
+  display: flex
+  align-items: center
+  margin-left: auto
+  input
+    width: 58px
+    height: 40px
+    border: none
+      radius: 0
+    padding: 0
+    text-align: center
+    color: $accent
+    font-size: 16px
+    background: transparent
+  span
+    width: 40px
+    height: 40px
+    min-width: 40px
+    border-radius: 50%
+    background: #F5F7FB
+    fill: $accent
+    cursor: pointer
+    padding: 14px
+    @include d-flex
+
+.btn-order
+  width: 100%
+  margin: 16px auto
+  font-size: 16px
+  height: 64px
+
+.list-payment
+  width: 100%
+  display: flex
+  align-items: flex-start
+  justify-content: center
+  flex-wrap: wrap
+
+.shield
+  margin: 0 auto
+  @include d-flex
+
+.sidebar-order
+  max-width: 287px
+  &.fixed
+    position: fixed
+    z-index: 2
+    background: #fff
+    top: 20px
+    transition: .3s ease
+
+.information-product
+  margin: 70px 0 0
+
+.nav-tabs
+  width: 100%
+  border: none
+    radius: 0
+  .nav-item
+    margin: 0 16px 0 0
+    &:last-child
+      margin: 0
+  .nav-link
+    margin: 0
+    background: #F5F7FB
+    height: 51px
+    border: 1px solid transparent
+      radius: 30px
+    text-align: center
+    display: flex
+    align-items: center
+    justify-content: center
+    color: #484848
+    font-size: 16px
+    font-weight: 500
+    min-width: 248px
+    padding: 5px
+    &.active
+      border: 1px solid #0F00BD
+      color: $accent
+
+.tab-content
+  margin: 48px 0 0
+  width: 100%
+  h3
+    margin: 0 0 24px
+    color: #484848
+    font-size: 32px
+    font-weight: 500
+  .box-text
+    color: #6F7D8D
+    max-width: 590px
+    line-height: 150%
+    p
+      margin: 0 0 30px
+      &:last-child
+        margin: 0
+    ul
+      list-style: none
+      padding: 0
+      margin: 30px 0
+
+
+/*==========  section product-page end  ==========*/
+
+
+
+/*==========  section question ==========*/
+.question
+  h2
+    margin: 0 auto 30px
+
+.panel_heading
+  width: 100%
+  text-align: center
+  margin: 0 0 32px
+  font-size: 18px
+  &:last-child
+    margin: 0
+  &.in
+    .block_title
+      color: #0B1F35
+      text-decoration: none
+
+.block_hover
+  display: none
+  color: #6F7D8D
+  margin: 24px 0 0
+
+.block_title
+  color: #99A2AD
+  text-decoration: underline
+  cursor: pointer
+
+/*==========  section question end  ==========*/
 
 
 /*==========  section  ==========*/

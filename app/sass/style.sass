@@ -70,17 +70,20 @@ a
 
 input, textarea, select
   outline: none
-  box-shadow: none
   appearance: none
-  padding: 0
+  padding: 0 13px
   box-sizing: border-box
   font-family: $default-font
-  border: none
-    radius: 0
+  border: 1px solid $accent
+    radius: 4px
+  box-shadow: 9px 22px 128px rgba(11, 31, 53, 0.1)
   width: 100%
-  font-size: 16px
+  height: 56px
+  background: #fff
+  font-size: 14px
+  color: #6F7D8D
   &::placeholder
-    color: inherit
+    color: #6F7D8D
 
   &:hover, &:focus
     outline: none
@@ -149,6 +152,13 @@ button, .btn
     color: #fff
     background: $accent
 
+.btn-border
+  padding: 8px 23px
+  color: #6F7D8D
+  border: 1px solid #6F7D8D
+  &:hover
+    color: #fff
+    background: #6F7D8D
 
 .btn-icon
   margin: 0 11px 0 0
@@ -176,6 +186,12 @@ ul, ol
 .my-ul
   list-style: none
   padding: 0
+
+h1
+  color: #484848
+  font-size: 32px
+  font-weight: 500
+  width: 100%
 
 h2
   color: #484848
@@ -293,4 +309,44 @@ a.color-grey
   align-items: center
   justify-content: flex-end
 
+
+.breadcrumb-nav
+  width: 100%
+  margin: 0 0 24px
+
+
+.breadcrumb
+  margin: 0
+  font-size: 14px
+  font-family: $default-font
+  a
+    color: #6F7D8D
+    &:hover
+      color: $accent
+
+.breadcrumb-item+.breadcrumb-item
+  padding-left: 5px
+
+.breadcrumb-item+.breadcrumb-item::before
+  color: #6F7D8D
+  padding: 0 5px 0 0
+
+.rating-wrapper
+  display: flex
+  align-items: center
+  color: #6F7D8D
+  font-size: 14px
+  margin: 8px 0 0
+  p
+    margin: 0 0 0 23px
+  .list-rating
+    li
+      width: 18px
+      height: 18px
+      margin: 0 4.5px 0 0
+      fill: #0F00BD
+      &:last-child
+        margin: 0
+    .star-0
+      fill: #CBD0D5
 

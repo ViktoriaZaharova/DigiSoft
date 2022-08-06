@@ -49,8 +49,10 @@ footer {
   .footer-box .btn {
     margin: auto 0 20px; }
 
-.footer-menu {
-  line-height: 276%; }
+.footer-menu li {
+  margin: 0 0 20px; }
+  .footer-menu li:last-child {
+    margin: 0; }
   .footer-menu li a {
     color: #6F7D8D; }
     .footer-menu li a:hover {

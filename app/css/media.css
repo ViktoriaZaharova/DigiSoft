@@ -1,41 +1,221 @@
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  /**/ }
+  .reviews-slider {
+    padding: 0 20px; }
+    .reviews-slider .slick-arrow {
+      width: 40px;
+      height: 40px;
+      padding: 13px; }
+    .reviews-slider .slick-prev {
+      left: 0; }
+    .reviews-slider .slick-next {
+      right: 0; }
+  h1 {
+    font-size: 30px; }
+  .tab-content {
+    margin: 30px 0 0; }
+    .tab-content h3 {
+      font-size: 28px;
+      margin: 0 0 20px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/ }
+  .footer-box .btn {
+    margin: 20px 0 0; }
+  .footer-wrapper {
+    margin: 0 auto 20px;
+    padding: 30px 20px 20px; }
+  .original-soft__image, .experts-section .original-soft__image {
+    margin: 20px auto 0; }
+  .original-soft {
+    margin: 60px 0; }
+    .original-soft h2 {
+      max-width: none;
+      font-size: 34px;
+      margin: 0 0 20px; }
+  .banner-wrapper {
+    padding: 40px 20px 40px 30px; }
+  h2 {
+    font-size: 26px; }
+  .banner .box-text {
+    font-size: 18px;
+    line-height: normal; }
+    .banner .box-text a {
+      font-size: 18px; }
+  .home-card__image {
+    max-width: 260px; }
+  .home-card .btn {
+    margin: 30px 0 0; }
+  .sidebar-order {
+    margin: 20px auto 0; }
+  .btn-download {
+    margin: 10px auto 0; }
+  h1 {
+    text-align: center; }
+  .rating-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .nav-tabs .nav-link {
+    height: 45px;
+    min-width: 180px;
+    font-size: 14px; }
+  .information-product {
+    margin: 40px 0 0; }
+  .btn-order {
+    height: 54px; }
+  .tab-content .box-text {
+    max-width: none;
+    font-size: 14px; }
+    .tab-content .box-text p {
+      margin: 0 0 20px; }
+    .tab-content .box-text ul {
+      margin: 20px 0; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /**/ }
+  footer {
+    padding: 0 0 24px; }
+    footer .phone {
+      margin: 20px 0 10px; }
+  .banner-image {
+    margin: 20px auto 0; }
+    .banner-image > img {
+      top: 0;
+      position: relative; }
+    .banner-image .btn {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+  .banner-content {
+    width: 100%;
+    text-align: center; }
+    .banner-content .box-text {
+      margin: 20px auto 0;
+      max-width: none; }
+  h1 {
+    font-size: 26px; }
+  .product-page-box {
+    margin: 20px auto 0; }
+  .nav-tabs .nav-link {
+    min-width: auto;
+    padding: 10px 20px; } }
 
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  .original-soft h2 {
+    font-size: 24px; }
+  h2 {
+    font-size: 24px; }
+  .reviews h2 {
+    margin: 0 auto 30px; }
+  .advantages-box {
+    padding: 30px 20px; }
+    .advantages-box__icon {
+      width: 50px;
+      height: 50px;
+      padding: 14px;
+      top: -20px; }
+    .advantages-box p {
+      max-width: none; }
+  .advantages h2 {
+    margin: 0 0 40px; }
+  .mb-40 {
+    margin-bottom: 30px; }
+  .product-days-box {
+    padding: 30px; }
+  .slider-nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .slick-arrow {
+    width: 30px;
+    height: 30px;
+    padding: 9px; }
+  .hits h2 {
+    margin: 0 auto 20px;
+    text-align: center; }
+  .home-card {
+    padding: 30px; }
+    .home-card h3 {
+      font-size: 24px; }
+    .home-card h4 {
+      font-size: 18px; }
+    .home-card .description {
+      font-size: 16px; }
+    .home-card__image {
+      max-width: 200px;
+      right: 20px;
+      bottom: 20px; }
+  .home-card-banner {
+    min-height: 300px; }
+  header {
+    padding: 20px 0; }
+  .list-characteristic {
+    padding: 0; }
+    .list-characteristic li {
+      margin: 0 0 15px; }
+  .tab-content h3 {
+    font-size: 22px; }
+  .panel_heading {
+    font-size: 16px;
+    margin: 0 0 26px; }
+  .block_hover {
+    margin: 20px 0 0; }
+  .advantages {
+    margin: 55px 0; } }
+
 @media only screen and (max-width: 480px) {
-  /**/ }
+  .product-days-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .product-days-box__content {
+      max-width: none;
+      text-align: center; }
+    .product-days-box__image {
+      margin: 20px auto -40px; }
+    .product-days-box .link-accent {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 0 auto; }
+  .timer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .home-card__image {
+    max-width: 130px; }
+  .sidebar-order {
+    max-width: none; }
+  .nav-tabs .nav-item {
+    margin: 0 10px 10px 0; }
+    .nav-tabs .nav-item:last-child {
+      margin: 0 0 10px; } }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  /**/ }
+@media only screen and (max-width: 440px) {
+  header .logo {
+    max-width: none;
+    margin: 0 auto 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    header .logo img {
+      max-width: 120px; } }
 
-/*==========  Mobile First  ==========*/
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
-  /**/ }
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-  /**/ }
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-  /**/ }
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-  /**/ }
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-  /**/ }
+@media only screen and (max-width: 380px) {
+  .home-card__image {
+    max-width: none;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin: 20px auto 0; } }
