@@ -71,7 +71,9 @@
     .tab-content .box-text p {
       margin: 0 0 20px; }
     .tab-content .box-text ul {
-      margin: 20px 0; } }
+      margin: 20px 0; }
+  .product-row {
+    min-height: auto; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -166,7 +168,12 @@
   .block_hover {
     margin: 20px 0 0; }
   .advantages {
-    margin: 55px 0; } }
+    margin: 55px 0; }
+  .home-card-min {
+    width: calc(50% - 8px);
+    height: 150px; }
+    .home-card-min:first-child {
+      margin-right: auto; } }
 
 @media only screen and (max-width: 480px) {
   .product-days-box {
@@ -193,7 +200,11 @@
   .nav-tabs .nav-item {
     margin: 0 10px 10px 0; }
     .nav-tabs .nav-item:last-child {
-      margin: 0 0 10px; } }
+      margin: 0 0 10px; }
+  .home-card {
+    padding: 20px; }
+    .home-card h3 {
+      font-size: 20px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 440px) {
@@ -213,9 +224,8 @@
       max-width: 120px; } }
 
 @media only screen and (max-width: 380px) {
+  .home-card .btn {
+    height: 46px;
+    padding: 6px 15px; }
   .home-card__image {
-    max-width: none;
-    position: relative;
-    bottom: 0;
-    right: 0;
-    margin: 20px auto 0; } }
+    max-width: 80px; } }

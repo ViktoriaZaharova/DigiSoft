@@ -100,6 +100,9 @@
       ul
         margin: 20px 0
 
+  .product-row
+    min-height: auto
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px)
   footer
@@ -223,6 +226,12 @@
   .advantages
     margin: 55px 0
 
+  .home-card-min
+    width: calc(50% - 8px)
+    height: 150px
+    &:first-child
+      margin-right: auto
+
 @media only screen and (max-width: 480px)
   .product-days-box
     flex-wrap: wrap
@@ -252,6 +261,12 @@
       &:last-child
         margin: 0 0 10px
 
+  .home-card
+    padding: 20px
+    h3
+      font-size: 20px
+
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 440px)
   header
@@ -265,10 +280,11 @@
         max-width: 120px
 
 @media only screen and (max-width: 380px)
-  .home-card__image
-    max-width: none
-    position: relative
-    bottom: 0
-    right: 0
-    margin: 20px auto 0
+  .home-card
+    .btn
+      height: 46px
+      padding: 6px 15px
+    &__image
+      max-width: 80px
+
 

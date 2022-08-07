@@ -220,7 +220,27 @@
 .collections-box
   width: 100%
   text-align: center
+  position: relative
+  z-index: 1
+  &:before
+    content: ''
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    width: calc(100% + 16px)
+    height: calc(100% + 16px)
+    z-index: -1
+    box-shadow: 9px 5px 40px rgba(11, 31, 53, 0.1)
+    background: #fff
+    border: 1px solid #EEEFF1
+      radius: 16px
+    opacity: 0
+    transition: .3s ease
 
+  &:hover
+    &:before
+      opacity: 1
   &__title
     margin: 24px auto 0
     color: #484848
@@ -407,7 +427,28 @@
   height: 100%
   position: relative
   font-family: $font
+  z-index: 1
+  &:before
+    content: ''
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    width: calc(100% + 16px)
+    height: calc(100% + 16px)
+    z-index: -1
+    box-shadow: 9px 5px 40px rgba(11, 31, 53, 0.1)
+    background: #fff
+    border: 1px solid #EEEFF1
+      radius: 16px
+    opacity: 0
+    transition: .3s ease
 
+  &:hover
+    &:before
+      opacity: 1
+    .btn
+      color: $accent
   &__image
     height: 120px
     width: 100%
@@ -448,6 +489,7 @@
 
   .options
     margin-bottom: 0
+
 /*==========  section popular end  ==========*/
 
 
@@ -622,6 +664,7 @@
 /*==========  section product-page ==========*/
 .product-page
   margin: 0 0 80px
+  position: relative
 
 .btn-download
   margin-left: auto
@@ -629,6 +672,13 @@
 
 .product-row
   margin-top: 40px
+  min-height: 384px
+
+.product-row-wrapper
+  width: 100%
+  background: #F5F7FB
+  border-radius: 16px
+  padding: 6px 16px 16px
 
 .product-image-box
   position: relative
@@ -690,6 +740,38 @@
   fill: #6F7D8D
   cursor: pointer
   margin-left: auto
+  position: relative
+  &:before
+    content: attr(data-text)
+    position: absolute
+    left: 50%
+    transform: translate(-50%,0)
+    background: #000
+    border-radius: 20px
+    color: #fff
+    text-align: center
+    padding: 5px 10px
+    font-size: 10px
+    min-width: 180px
+    bottom: 100%
+    margin: 0 auto 6px
+    transition: .3s ease
+    opacity: 0
+  &:after
+    content: ''
+    position: absolute
+    left: 50%
+    transform: translate(-50%,0)
+    clip-path: polygon(50% 100%, 0 0, 100% 0)
+    background: #000
+    width: 10px
+    height: 6px
+    bottom: 100%
+    transition: .3s ease
+    opacity: 0
+  &:hover
+    &:after, &:before
+      opacity: 1
 
 
 .link-code
@@ -751,7 +833,9 @@
 
 .sidebar-order
   max-width: 287px
+
   &.fixed
+    padding: 15px
     position: fixed
     z-index: 2
     background: #fff

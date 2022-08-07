@@ -94,12 +94,12 @@ accordeon();
 // fixed sidebar
 
 $(window).on('load resize', function() {
-    if ($(window).width() > 992) {
+    if ($(window).width() > 1100) {
         $(function () {
             var topPos = $('.sidebar-order').offset().top;
             $(window).scroll(function () {
                 var top = $(document).scrollTop(),
-                    pip = $('.reviews').offset().top,
+                    pip = $('.banner, .question, .popular, .reviews, footer, .advantages, .original-soft').offset().top,
                     height = $('.sidebar-order').outerHeight();
                 if (top > topPos && top < pip - height) {
                     $('.sidebar-order').addClass('fixed').removeAttr("style");
